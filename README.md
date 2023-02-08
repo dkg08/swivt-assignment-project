@@ -1,1 +1,0 @@
-# swivt-assignment-project
