@@ -1,0 +1,11 @@
+.coupon{
+    margin-left: 5%;
+    margin-bottom: 100px;
+    .couponList{
+        display: flex;
+       
+        gap: 24px;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+}

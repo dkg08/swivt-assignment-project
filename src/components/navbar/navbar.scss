@@ -73,10 +73,11 @@
 
         .rightNavbarSection{
             display: flex;
-            gap: 8px;
+            gap: 24px;
             
             h3{
                 cursor: pointer;
+                font-size: 20px;
             }
 
             .bag{
@@ -84,10 +85,9 @@
                 justify-content: center;
                 position: relative;
                 cursor: pointer;
-                gap: 12px;
-                .bagIcon{
+              
 
-                }
+                
                 .itemsInBag{
                     position: absolute;
                     right: 2px;
