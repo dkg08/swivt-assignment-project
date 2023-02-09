@@ -1,0 +1,17 @@
+.topBanner{
+    width: 100vw;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    
+    .bannerImageContainer{
+        width: 90%;
+        height: 268px;
+        border-radius: 15px;
+        background-image: url('../../assets/topBanner.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+}
