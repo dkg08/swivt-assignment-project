@@ -1,11 +1,16 @@
-.coupon{
-    margin-left: 5%;
-    margin-bottom: 100px;
-    .couponList{
-        display: flex;
-       
-        gap: 24px;
-        justify-content: flex-start;
-        overflow: hidden;
-    }
+.coupon {
+  padding-left: 5%;
+  padding-right: 5%;
+
+  h3 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .couponList {
+    display: flex;
+
+    gap: 24px;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
 }

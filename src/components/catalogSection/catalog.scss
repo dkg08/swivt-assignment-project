@@ -1,0 +1,21 @@
+.catalogSection {
+  width: 100%;
+  margin: 50px 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .catalogSectionWrapper {
+    width: 90%;
+    h3 {
+      font-size: 35px;
+      font-weight: 600;
+    }
+    .delicaciesList {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  }
+}
