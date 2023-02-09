@@ -5,6 +5,10 @@ import { TopBanner } from './components/topBanner/TopBanner';
 import { Coupon } from './components/coupon/Coupon';
 import { Catalog } from './components/catalogSection/Catalog';
 import { SingleSlider } from './components/singleSlider/SingleSlider';
+import { PopularFood } from './components/popularFoods/PopularFood';
+import { Drink } from './components/drinkItems/Drink';
+import { Breakfast } from './components/breakfast/Breakfast';
+
 
 function App() {
   return (
@@ -15,6 +19,12 @@ function App() {
       <Coupon />
       <Catalog />
       <SingleSlider />
+      
+     <div className="appWrapper">
+      <PopularFood/>
+      <Breakfast />
+      <Drink />
+      </div>
     </div>
   );
 }

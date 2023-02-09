@@ -1,0 +1,61 @@
+@import "../../global.scss";
+
+.foodCard {
+  height: 370px;
+  width: 250px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 17px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  margin: 20px 10px;
+  
+  overflow: hidden;
+  .topSection {
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .foodDescription {
+    padding: 12px;
+    margin-bottom: 8px;
+    p {
+      margin: auto;
+      font-weight: 300;
+      font-size: 21px;
+      line-height: 113.2%;
+      color: #000000;
+    }
+  }
+
+  .bottomSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    .bottomLeft{
+        .price{
+            font-size: 20px;
+            line-height: 23px;
+            font-weight: 700;
+            margin: 0;
+        }
+        .prevPrice{
+            margin: 0;
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 400;
+            text-decoration: line-through;
+            color: $grey--lightest;
+        }
+    }
+    .add{
+        border: 1px solid $yellow-shade;
+        font-size: 18px;
+        padding: 8px 28px;
+        background: transparent;
+        color: $yellow-shade;
+        cursor: pointer;
+    }
+  }
+}

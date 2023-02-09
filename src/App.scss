@@ -6,4 +6,12 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: $white;
   overflow-x: hidden;
+
+  .App{
+    width: 100%;
+    .appWrapper{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
 }
