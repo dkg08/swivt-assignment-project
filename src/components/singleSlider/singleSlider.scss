@@ -1,0 +1,23 @@
+@import "../../global.scss";
+.singleSlider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+
+  .arrow {
+    background-color: $mud;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    font-weight: 800;
+    color: $white;
+    cursor: pointer;
+  }
+}
