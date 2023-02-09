@@ -8,6 +8,7 @@ import { SingleSlider } from './components/singleSlider/SingleSlider';
 import { PopularFood } from './components/popularFoods/PopularFood';
 import { Drink } from './components/drinkItems/Drink';
 import { Breakfast } from './components/breakfast/Breakfast';
+import { BestDeals } from './components/bestDeals/BestDeals';
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
       <TopBanner />
       <Coupon />
       <Catalog />
-      <SingleSlider />
       
      <div className="appWrapper">
+      <SingleSlider />
+      <BestDeals />
       <PopularFood/>
       <Breakfast />
       <Drink />
