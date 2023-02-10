@@ -7,24 +7,40 @@
   box-shadow: 4px 4px 17px rgba(0, 0, 0, 0.11);
   border-radius: 10px;
   margin: 20px 10px;
-  
   overflow: hidden;
+  
+
+  @include mobile{
+    width: 185px;
+    height: 274px;
+  }
+  
   .topSection {
 
     img {
       width: 100%;
+      
+      @include mobile{
+        
+        object-fit: cover;
+      }
     }
   }
 
   .foodDescription {
     padding: 12px;
     margin-bottom: 8px;
+
     p {
       margin: auto;
       font-weight: 300;
       font-size: 21px;
       line-height: 113.2%;
       color: #000000;
+      @include mobile{
+        
+        font-size: 12px;
+      }
     }
   }
 
@@ -39,6 +55,10 @@
             line-height: 23px;
             font-weight: 700;
             margin: 0;
+            @include mobile{
+        
+              font-size: 14px;
+            }
         }
         .prevPrice{
             margin: 0;
@@ -47,6 +67,10 @@
             font-weight: 400;
             text-decoration: line-through;
             color: $grey--lightest;
+            @include mobile{
+        
+              font-size: 10px;
+            }
         }
     }
     .add{
@@ -56,6 +80,10 @@
         background: transparent;
         color: $yellow-shade;
         cursor: pointer;
+        @include mobile{
+          padding: 8px 14px;
+          font-size: 14px;
+        }
     }
   }
 }

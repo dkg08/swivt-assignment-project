@@ -12,11 +12,8 @@ export const FoodBannerCard = () => {
           <br />
           Lamb
         </h2>
-        <p className="bannerDesciption">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-          ab, voluptas eum error omnis, repellendus velit, numquam voluptatibus
-          eaque totam quo sunt! Ipsa molestiae doloribus veniam magni possimus,
-          quis omnis neque excepturi vero veritatis?
+        <p className="bannerDescription">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate morbi ultrices at pulvinar feugiat. Ultrices consequat eget magna risus, posuere dui. 
         </p>
         <button className="bannerButton">ADD TO CART</button>
       </div>

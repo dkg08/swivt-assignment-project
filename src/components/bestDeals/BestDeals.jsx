@@ -9,13 +9,13 @@ export const BestDeals = () => {
     <div className='bestDeals'>
         <h2 className="dealTitle">Best Deals</h2>
         <div className="dealList">
-        <div className="deal">
+        <div className="deal one">
             <img src={pizza} alt="deal" />
         </div>
-        <div className="deal">
+        <div className="deal two">
             <img src={burger} alt="deal" />
         </div>
-        <div className="deal">
+        <div className="deal three">
             <img src={special} alt="deal" />
         </div>
         </div>

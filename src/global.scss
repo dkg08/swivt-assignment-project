@@ -10,4 +10,12 @@ $brown--shade: #fec568;
 $grey--lightest: #CCCCCC;
 $grey--extra--light: #D4D4D4;
 $grey--: #DBDBDB;
+$width: 745px;
+
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+      @content;
+    };
+  };
 

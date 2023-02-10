@@ -2,6 +2,10 @@
 .catalogCard {
   // background-color: red;
   width: 173px;
+
+  @include mobile{
+    width: 110px;
+  }
   .iconContainer {
     width: 100%;
     height: 147px;
@@ -11,10 +15,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    @include mobile{
+      height: 100px;
+      img{
+        width: 90%;
+      }
+    }
   }
   .foodCaption {
-    // font-size: 1px;
     font-weight: 400;
     text-align: center;
+    @include mobile{
+      font-size: 13px;
+    }
   }
 }

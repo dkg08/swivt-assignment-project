@@ -1,23 +1,41 @@
+@import '../../global.scss';
+
 .bestDeals {
   width: 100%;
   margin: 100px 0;
-
   overflow: hidden;
+
+  @include mobile{
+    margin: 40px 0;
+  }
 
   .dealTitle {
     font-size: 34px;
     font-weight: 600;
     line-height: 40px;
+
+    @include mobile{
+      font-size: 30px;
+    }
   }
 
   .dealList {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    gap: 20px;
     align-items: center;
 
     .deal {
-      height: 200px;
-      width: 320px;
+      height: 220px;
+      width: 300px;
+      border-radius: 8px;
+      overflow: hidden;
+
+      &.three{
+        @include mobile{
+          display: none;
+        }
+      }
 
       img {
         width: 100%;

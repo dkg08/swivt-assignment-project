@@ -6,7 +6,7 @@ import call from '../../assets/navbarIcons/call.svg'
 import location from '../../assets/navbarIcons/location.svg'
 import arrowDown from '../../assets/navbarIcons/arrowDown.svg'
 import search from '../../assets/navbarIcons/search.svg'
-
+import profile from '../../assets/profile.svg'
 
 
 
@@ -49,6 +49,8 @@ export const Navbar = () => {
                 <img src={bag} alt="bag-icon" className="bagIcon"/>
                 <span className='itemsInBag'>{26}</span>
                 </div>
+                <img src={profile} alt="profile icon" className="profileIcon" />
+
             </div>
         </div>
     </div>
