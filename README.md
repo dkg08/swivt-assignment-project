@@ -10,10 +10,13 @@ This project is built to create a ecommerce website user interface in React Js. 
 * Catalog Section - A catalog of the different delicacies available
 * Slider - A slider showing food available with proper description
 * Multiple Item Slider - this has multilple items under the category of popular foods, breakfast items and drinks which are shown with the help of slider.
+* Article - Contains blog post with image and video
+* Services - Different service cards offered by company
+* Footer - Simple footer with useful links and socials
 
 
 
-## How to install and run this project on your local machine
+## How to install and run this project?
 
 1. Clone this project
 2. Install node js and npm (or your choice of package manager)
@@ -22,6 +25,9 @@ This project is built to create a ecommerce website user interface in React Js. 
 5. Create React App was used for setting up the template for the project
 6. To run the project locally run command: npm start
 
+## Tech Stack
+
+**Client:** React, SCSS
 
 ## Known issues (work in progress)
 
