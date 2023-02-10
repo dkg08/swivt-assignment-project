@@ -1,8 +1,7 @@
 .appPromo{
     width: 100%;
     margin: 100px 0;
-    height: 75vh;
-    // background-color: red;
+    height: 550px;
     overflow: hidden;
 
     .appPromoWrapper{
@@ -15,7 +14,6 @@
 
         .appPromoLeft{
             flex: 0.5;
-            // background-color: aqua;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -23,25 +21,28 @@
 
             .appPromoTitle{
                 font-weight: 700;
-                font-size: 50px;
-                margin: auto;
+                font-size: 48px;
+                margin: 0;
             }
 
             .appPromoDetail{
                 font-weight: 600;
-                font-size: 22px;
+                font-size: 20px;
                 width: 80%;
             }
 
             .qrcode{
                 img{
-                    width: 86%;
+                    width: 80%;
                 }
                 margin: 2% 0;
             }
 
-            // .appcontainer{
-            // }
+            .appcontainer{
+                img{
+                    width: 40%;
+                };
+            }
         }
         
         .appPromoRight{
@@ -51,7 +52,7 @@
             justify-content: flex-start;
             align-items: center;
             img{
-                width: 86%;
+                width: 92%;
                 
             }
         }
