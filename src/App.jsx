@@ -14,6 +14,7 @@ import middleBanner from './assets/middlebanner.png'
 import { Promotion } from './components/promotion/Promotion';
 import { UserBenefit } from './components/userBenefit/UserBenefit';
 import { RiderProgram } from './components/riderProgram/RiderProgram';
+import { AppPromo } from './components/appPromo/AppPromo';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <UserBenefit />
       </div>
       <RiderProgram />
+      <AppPromo />
     </div>
   );
 }
