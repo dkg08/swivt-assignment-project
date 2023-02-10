@@ -1,0 +1,59 @@
+@import '../../global.scss';
+.promotion {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+
+  .promotionCard {
+    width: 580px;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    // background-color: red;
+
+    img {
+      width: 100%;
+      object-fit: co;
+    }
+
+    .captionBanner {
+      border-radius: 20px;
+      position: absolute;
+      bottom: -36%;
+      background-color: white;
+      width: 100%;
+      height: 300px;
+      transform: rotate(10deg);
+      box-shadow: 0px -10px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .text {
+        position: absolute;
+        bottom: 5%;
+        left: 8%;
+      .promotionDescription {
+        width: 70%;
+        color: $dark;
+
+        .promo{
+            display: inline-block;
+            &.heading{
+                font-size: 18px;
+                font-weight: 600;
+            }
+            
+            &.desc{
+                margin-top: 8px;
+                font-size: 16px;
+                font-weight: 500;
+
+            }
+        }
+       
+      }
+    }
+  }
+}
