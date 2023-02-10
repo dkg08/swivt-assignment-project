@@ -9,6 +9,10 @@ import { PopularFood } from './components/popularFoods/PopularFood';
 import { Drink } from './components/drinkItems/Drink';
 import { Breakfast } from './components/breakfast/Breakfast';
 import { BestDeals } from './components/bestDeals/BestDeals';
+import { Article } from './components/blogPost/Article';
+import middleBanner from './assets/middlebanner.png'
+import { Promotion } from './components/promotion/Promotion';
+import { UserBenefit } from './components/userBenefit/UserBenefit';
 
 
 function App() {
@@ -26,6 +30,14 @@ function App() {
       <PopularFood/>
       <Breakfast />
       <Drink />
+      <Article />
+      </div>
+      <div className="middleBanner">
+        <img src={middleBanner} alt="food and fruits" />
+      </div>
+      <div className="appMiddleWrapper">
+        <Promotion />
+        <UserBenefit />
       </div>
     </div>
   );
