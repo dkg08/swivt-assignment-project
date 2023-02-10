@@ -31,5 +31,5 @@ This project is built to create a ecommerce website user interface in React Js. 
 
 ## Known issues (work in progress)
 
-This project is still ongoing. The part of making it mobile responsive is still in progress.  
+The part of making it mobile responsive is still in progress. The bottom component parts are left for adding responsive code which I am still working on. 
 
