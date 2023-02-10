@@ -13,6 +13,7 @@ import { Article } from './components/blogPost/Article';
 import middleBanner from './assets/middlebanner.png'
 import { Promotion } from './components/promotion/Promotion';
 import { UserBenefit } from './components/userBenefit/UserBenefit';
+import { RiderProgram } from './components/riderProgram/RiderProgram';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Promotion />
         <UserBenefit />
       </div>
+      <RiderProgram />
     </div>
   );
 }
