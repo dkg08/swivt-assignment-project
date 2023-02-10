@@ -15,6 +15,7 @@ import { Promotion } from './components/promotion/Promotion';
 import { UserBenefit } from './components/userBenefit/UserBenefit';
 import { RiderProgram } from './components/riderProgram/RiderProgram';
 import { AppPromo } from './components/appPromo/AppPromo';
+import { Footer } from './components/footer/Footer';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
       </div>
       <RiderProgram />
       <AppPromo />
+      <Footer />
     </div>
   );
 }
